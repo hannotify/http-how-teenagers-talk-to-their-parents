@@ -9,6 +9,10 @@
 .reveal section img.no-background {
 	background: none;
 }
+.reveal .controls button {
+    color: var(--eventColor);
+}
+
 .stroke {
     color: white !important;
     text-shadow:

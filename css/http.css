@@ -1,0 +1,82 @@
+.flex-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-columns .col {
+    flex: 1 1 300px;
+    padding: 10px;
+}
+
+.flex-columns .header {
+    font-weight: bold;
+}
+
+.badge {
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.7em;
+}
+
+.badge.clientError {
+    background-color: color-mix(in srgb, #ffc107 80%, transparent 20%);
+}
+
+.badge.serverError {
+    background-color: color-mix(in srgb, #dc3545 80%, transparent 20%);
+}
+
+.badge.success {
+    background-color: color-mix(in srgb, #28a745 80%, transparent 20%);
+}
+
+.badge.redirection {
+    background-color: color-mix(in srgb, #17a2b8 80%, transparent 20%);
+}
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 0.5fr;
+    border-radius: 5px;
+    padding: 5px;
+    align-content: center;
+}
+
+.grid > div {
+    /* border: 1px solid #c1c1c1; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    vertical-align: middle;;
+}
+
+.grid > .header {
+    font-weight: bold;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.grid > div:not(.header) {
+    border: 1px solid #c1c1c1;
+    background-color: color-mix(in srgb, transparent 90%, currentColor 10%);
+}
+
+.grid > .monospaced {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.7em;
+}
+
+.grid > .span-2 {
+    grid-column: span 2;
+}
+
+.grid > .span-3 {
+    grid-column: span 3;
+}

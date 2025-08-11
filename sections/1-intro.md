@@ -16,3 +16,7 @@
     </tr>
 </table>
 <img width="10%" data-src="img/logos/spacerockit-2025.png" class="no-background"/>
+
+note:
+* append `?controls=false` to the URL
+* Watch your pronunciation
