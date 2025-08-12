@@ -13,11 +13,11 @@
 }
 
 .badge {
+    background-color: color-mix(in srgb, grey 80%, transparent 20%);
     color: white;
     padding: 4px 8px;
     text-align: center;
     border-radius: 5px;
-    font-size: 0.7em;
 }
 
 .badge.clientError {
@@ -48,13 +48,12 @@
 }
 
 .grid > div {
-    /* border: 1px solid #c1c1c1; */
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    vertical-align: middle;;
+    vertical-align: middle;
 }
 
 .grid > .header {
@@ -66,11 +65,38 @@
 .grid > div:not(.header) {
     border: 1px solid #c1c1c1;
     background-color: color-mix(in srgb, transparent 90%, currentColor 10%);
+    font-size: 0.7em;
 }
 
-.grid > .monospaced {
+.monospaced {
     font-family: 'Fira Code', monospace;
-    font-size: 0.7em;
+    /* font-size: 0.5em; */
+    font-weight: bold;
+    color: var(--r-main-color);
+    background-color: color-mix(in srgb, grey 30%, transparent 70%);
+    padding: 0px 4px;
+    border-radius: 5px;
+    margin: 0px 4px;
+}
+
+.monospaced.get {
+    color: color-mix(in srgb, #28a745 80%, var(--r-main-color) 20%);
+}
+
+.monospaced.post {
+    color: color-mix(in srgb, #c08401 80%, var(--r-main-color) 20%);
+}
+
+.monospaced.put {
+    color: color-mix(in srgb, #17a2b8 80%, var(--r-main-color) 20%);
+}
+
+.monospaced.patch {
+    color: color-mix(in srgb, #ac45f6 80%, var(--r-main-color) 20%);
+}
+
+.monospaced.delete {
+    color: color-mix(in srgb, #b42735 80%, var(--r-main-color) 20%);
 }
 
 .grid > .span-2 {
