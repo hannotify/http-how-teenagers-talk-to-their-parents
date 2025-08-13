@@ -41,13 +41,12 @@
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
-    grid-auto-rows: 0.5fr;
     border-radius: 5px;
     padding: 5px;
     align-content: center;
 }
 
-.grid > div {
+.grid div {
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -56,13 +55,17 @@
     vertical-align: middle;
 }
 
-.grid > .header {
+.grid div:has(ul) {
+    justify-content: left;
+}
+
+.grid .header {
     font-weight: bold;
     justify-content: flex-end;
     text-align: right;
 }
 
-.grid > div:not(.header) {
+.grid div:not(.header) {
     border: 1px solid #c1c1c1;
     background-color: color-mix(in srgb, transparent 90%, currentColor 10%);
     font-size: 0.7em;
@@ -70,16 +73,19 @@
 
 .monospaced {
     font-family: 'Fira Code', monospace;
-    /* font-size: 0.5em; */
     font-weight: bold;
     color: var(--r-main-color);
     background-color: color-mix(in srgb, grey 30%, transparent 70%);
     padding: 0px 4px;
     border-radius: 5px;
-    margin: 0px 4px;
+    margin: 0px 6px;
 }
 
 .monospaced.get {
+    color: color-mix(in srgb, #28a745 80%, var(--r-main-color) 20%);
+}
+
+.monospaced.head {
     color: color-mix(in srgb, #28a745 80%, var(--r-main-color) 20%);
 }
 

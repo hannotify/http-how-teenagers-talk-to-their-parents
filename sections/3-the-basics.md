@@ -5,3 +5,9 @@
 <https://www.pexels.com/photo/man-scolding-his-son-8550837/> <!-- .element: class="attribution" -->
 
 ---
+
+TODO: basic HTTP request/response flow
+
+---
+
+TODO: visual status code categories

@@ -5,3 +5,9 @@
 <https://www.pexels.com/photo/man-scolding-his-son-8550837/> <!-- .element: class="attribution" -->
 
 ---
+
+TODO: explain why understanding HTTP status codes can help you build more resilient systems.
+
+---
+
+TODO: explain why navigating conversations with teenagers can help you build more resilient systems.
