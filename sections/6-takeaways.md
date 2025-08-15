@@ -11,7 +11,7 @@
         <tr>
             <th>Status Code</th>
             <th>Category</th>
-            <th>Teenager Response 🛹</th>
+            <th>Teenager Response 🛹💄</th>
         </tr>
     </thead>
     <tbody>
@@ -42,52 +42,52 @@
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">400 Bad Request</span></td>
-            <td><span class="badge clientError">4xx Client Error</span></td>
+            <td><span class="badge client-error">4xx Client Error</span></td>
             <td>"Well, technically..."</td>
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">401 Unauthorized</span></td>
-            <td><span class="badge clientError">4xx Client Error</span></td>
+            <td><span class="badge client-error">4xx Client Error</span></td>
             <td>"You're not my <em>mum</em> or anything."</td>
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">403 Forbidden</span></td>
-            <td><span class="badge clientError">4xx Client Error</span></td>
+            <td><span class="badge client-error">4xx Client Error</span></td>
             <td>"Dad! You did <em>not</em> just ask me that!"</td>
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">404 Not Found</span></td>
-            <td><span class="badge clientError">4xx Client Error</span></td>
+            <td><span class="badge client-error">4xx Client Error</span></td>
             <td>"I have no idea what you want."</td>
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">405 Method Not Allowed</span></td>
-            <td><span class="badge clientError">4xx Client Error</span></td>
+            <td><span class="badge client-error">4xx Client Error</span></td>
             <td>"That's no way to ask."</td>
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">418 I'm A Teapot</span></td>
-            <td><span class="badge clientError">4xx Client Error</span></td>
+            <td><span class="badge client-error">4xx Client Error</span></td>
             <td>"Enough with the dad jokes already!"</td>
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">429 Too Many Requests</span></td>
-            <td><span class="badge clientError">4xx Client Error</span></td>
+            <td><span class="badge client-error">4xx Client Error</span></td>
             <td>"Stop asking me that."</td>
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">500 Internal Server Error</span></td>
-            <td><span class="badge serverError">5xx Server Error</span></td>
+            <td><span class="badge server-error">5xx Server Error</span></td>
             <td>"(...)"</td>
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">501 Not Implemented</span></td>
-            <td><span class="badge serverError">5xx Server Error</span></td>
+            <td><span class="badge server-error">5xx Server Error</span></td>
             <td>"I don't know how to do that."</td>
         </tr>
         <tr class="fragment">
             <td><span class="monospaced">503 Service Unavailable</span></td>
-            <td><span class="badge serverError">5xx Server Error</span></td>
+            <td><span class="badge server-error">5xx Server Error</span></td>
             <td>"Dad! Can't you see I'm busy?"</td>
         </tr>
     </tbody>

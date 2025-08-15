@@ -13,7 +13,7 @@
     <div><span class="badge success">2xx Success</span></div>
     <div class="header">Description</div>
     <div class="span-3">The request was successful.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"Yeah, okay."</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -38,7 +38,7 @@
     <div><span class="badge success">2xx Success</span></div>
     <div class="header">Description</div>
     <div class="span-3">The request was successful, and a new resource has been created as a result.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"I wrote that school report."</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -120,7 +120,7 @@ Content-Type: application/json
     <div><span class="badge success">2xx Success</span></div>
     <div class="header">Description</div>
     <div class="span-3">The request has been accepted for processing, but the processing has not been completed.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"Yeah, I'll get to it."&nbsp;&nbsp;&nbsp;<small>(but you don't know when)</small></div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -161,7 +161,7 @@ TODO - draw a diagram that showcases the BFF situation at Vanderlande, and how w
     <div><span class="badge success">2xx Success</span></div>
     <div class="header">Description</div>
     <div class="span-3">The server successfully processed the request, but is not returning any content.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"Fine!"</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -197,7 +197,7 @@ A short verbal acknowledgment of the request, but with an utter lack of further 
     <div><span class="badge redirection">3xx Redirection</span></div>
     <div class="header">Description</div>
     <div class="span-3">The client's cached version of the resource is still valid. The server didn’t need to send a new version.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"What did I tell you last time you asked me that?"</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -226,10 +226,10 @@ note:
     <div class="header">Status Code</div>
     <div><span class="monospaced">400 Bad Request</span></div>
     <div class="header">Category</div>
-    <div><span class="badge clientError">4xx Client Error</span></div>
+    <div><span class="badge client-error">4xx Client Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The server couldn’t understand the request due to invalid syntax or incorrect parameters.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"Well, technically..."</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -266,10 +266,10 @@ My teenage kids are actively dissecting and deconstructing my request to escape 
     <div class="header">Status Code</div>
     <div><span class="monospaced">401 Unauthorized</span></div>
     <div class="header">Category</div>
-    <div><span class="badge clientError">4xx Client Error</span></div>
+    <div><span class="badge client-error">4xx Client Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The request lacks valid authentication credentials. The client must authenticate itself to get the requested response.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"You're not my&nbsp;<em>mum</em>&nbsp;or anything."</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -300,10 +300,10 @@ Her, dismissive: "It’s not like you’re my _mum_ or anything."
     <div class="header">Status Code</div>
     <div><span class="monospaced">403 Forbidden</span></div>
     <div class="header">Category</div>
-    <div><span class="badge clientError">4xx Client Error</span></div>
+    <div><span class="badge client-error">4xx Client Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The server understands the request, but refuses to authorize it. Valid authentication credentials may have been provided in the request, but the server considers them insufficient to grant access.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"Dad! You did&nbsp;<em>not</em>&nbsp;just ask me that!"</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -349,10 +349,10 @@ which makes it an <em>identity issue</em>.
     <div class="header">Status Code</div>
     <div><span class="monospaced">404 Not Found</span></div>
     <div class="header">Category</div>
-    <div><span class="badge clientError">4xx Client Error</span></div>
+    <div><span class="badge client-error">4xx Client Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The server can't find the requested resource.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"I have no idea what you want."</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -381,10 +381,10 @@ The requested information (or chore) simply doesn’t exist in their realm of aw
     <div class="header">Status Code</div>
     <div><span class="monospaced">405 Method Not Allowed</span></div>
     <div class="header">Category</div>
-    <div><span class="badge clientError">4xx Client Error</span></div>
+    <div><span class="badge client-error">4xx Client Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The server understands the request, but the HTTP method is not allowed for that resource.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"That's no way to ask."</div>
     <div class="fragment header" data-fragment-index="2">Usage Tips</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -407,10 +407,10 @@ This exchange used to be the other way around, when my kids were younger.
     <div class="header">Status Code</div>
     <div><span class="monospaced">418 I'm A Teapot</span></div>
     <div class="header">Category</div>
-    <div><span class="badge clientError">4xx Client Error</span></div>
+    <div><span class="badge client-error">4xx Client Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The server refuses to brew coffee because it is a teapot.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"Enough with the dad jokes already!"</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -430,10 +430,10 @@ This exchange used to be the other way around, when my kids were younger.
     <div class="header">Status Code</div>
     <div><span class="monospaced">429 Too Many Requests</span></div>
     <div class="header">Category</div>
-    <div><span class="badge clientError">4xx Client Error</span></div>
+    <div><span class="badge client-error">4xx Client Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The user has sent too many requests in a given amount of time.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"Stop asking me that."</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -462,10 +462,10 @@ This exchange used to also be the other way around, when my kids were younger.
     <div class="header">Status Code</div>
     <div><span class="monospaced">500 Internal Server Error</span></div>
     <div class="header">Category</div>
-    <div><span class="badge serverError">5xx Server Error</span></div>
+    <div><span class="badge server-error">5xx Server Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The server encountered an unexpected condition that prevented it from fulfilling the request.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"(...)"</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -493,10 +493,12 @@ This exchange used to also be the other way around, when my kids were younger.
 note:
 The default response to anything I ask my son.
 
-Dad: *asks teenager to do a chore*
-Teenager: (…)
+Dad: *asks kid to do a chore*
+Kid: (…)
 Dad: “Hello?”
-Teenager: (…)
+Kid: (…)
+Dad (getting impatient): “Hellooo?! Earth to kid?!”
+Kid: "What? I didn't hear you..."
 
 Because if you don't answer, you may just get off the hook!
 
@@ -506,10 +508,10 @@ Because if you don't answer, you may just get off the hook!
     <div class="header">Status Code</div>
     <div><span class="monospaced">501 Not Implemented</span></div>
     <div class="header">Category</div>
-    <div><span class="badge clientError">5xx Server Error</span></div>
+    <div><span class="badge client-error">5xx Server Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The server does not support the functionality to fulfill the request.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"I don't know how to do that."</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
@@ -528,7 +530,7 @@ Because if you don't answer, you may just get off the hook!
 </div>
 
 note:
-Dad: “Time to get up, kid. You've got that thing in 45 minutes.”.
+Dad: “Time to get up, kid. You've got school in 45 minutes.”.
 Teenager: ”(...)&nbsp;&nbsp;😴" *feigned sleeping*
 But if he was able to talk, he'd say: "I don't know how to do that."
 
@@ -540,10 +542,10 @@ Absolute non-compliance, often accompanied by feigned sleep or a complete lack o
     <div class="header">Status Code</div>
     <div><span class="monospaced">503 Service Unavailable</span></div>
     <div class="header">Category</div>
-    <div><span class="badge clientError">5xx Server Error</span></div>
+    <div><span class="badge client-error">5xx Server Error</span></div>
     <div class="header">Description</div>
     <div class="span-3">The server is temporarily unavailable.</div>
-    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹</div>
+    <div class="fragment header span-2" data-fragment-index="1">Teenager Response 🛹💄</div>
     <div class="fragment span-2" data-fragment-index="1">"Dad! Can't you see I'm busy?"</div>
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">

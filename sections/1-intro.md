@@ -18,8 +18,17 @@
 <img width="10%" data-src="img/logos/spacerockit-2025.png" class="no-background"/>
 
 note:
+
+Voorbereidingen:
 * append `?controls=false` to the URL
 * Watch your pronunciation
+
+Hi! My name is Hanno and this talk is about HTTP.
+Yes, the HyperText Transfer Protocol.
+But also: How Teenagers Talk to their Parents.
+
+It may seem like these two themes have nothing in common, but actually, the opposite is true. 
+Don't worry: you'll find out why soon enough.
 
 ---
 
@@ -34,7 +43,7 @@ note:
 <https://www.pexels.com/photo/people-cooking-marshmallows-on-campfire-9630132/> <!-- .element: class="attribution" -->
 
 note:
-1. though that is a very good word too, and one that the Dutch have become famous for
+1. though that is a very good word too, and one that the Dutch have become quite famous for
 2. And one that everyone knows since President Obama visited the city of The Hague in 2014 and thought his visit was 'truly gezellig'
 3. But I'm talking about a different word
 
