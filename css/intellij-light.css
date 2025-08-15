@@ -117,3 +117,7 @@ Intellij-light style (c) Pegasis <me@pegasis.site>
 .hljs-tag {
   /* purposely ignored */
 }
+
+.basic-http-flow div.slide-background-content {
+  background-image: url('../out/puml/basic-http-flow-light/basic-http-flow.puml.svg');
+}

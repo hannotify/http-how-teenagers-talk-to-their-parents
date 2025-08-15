@@ -1,0 +1,11 @@
+@startuml basic-http-flow.puml
+
+!include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
+
+skinparam backgroundColor transparent
+skinparam NoteBackgroundColor #DarkRed
+skinparam NoteFontColor #LightGrey
+
+!include basic-http-flow.puml
+
+@enduml

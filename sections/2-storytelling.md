@@ -89,6 +89,6 @@ My daughter seems to be actively dissecting and deconstructing my request to esc
 
 note:
 So, the way my teenage kids talk to me makes me think of HTTP status codes.
-Let's decode the languange that modern software systems use to communicate by relating a set of prominent status codes to an appropriate teenage response.
+Let's decode the language that modern software systems use to communicate by relating a set of common status codes to an appropriate teenage response.
 And I'll make sure to include a few do's and don't's for every status code we go through, whether you're a developer, tester, architect or data engineer.
 Sound good?

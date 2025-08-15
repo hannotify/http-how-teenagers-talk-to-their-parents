@@ -1,0 +1,15 @@
+participant "Client\n 💻📱" as Client
+participant "Web Server" as Server
+
+Client -> Server: **HTTP Request**\nGET /teenager/1/chores HTTP/1.1\nHost: hanno.codes
+note right of Client
+  Client initiates communication
+  by sending an HTTP request
+end note
+
+Server -> Client: **HTTP Response**\nHTTP/1.1 200 OK\nContent-Type: application/json\n\n{"chores": ["dishes", "laundry"]}
+note left of Server
+  Server processes the request
+  and sends back a response
+  with status code and data
+end note

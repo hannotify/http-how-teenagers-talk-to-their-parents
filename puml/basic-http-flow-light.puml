@@ -1,0 +1,7 @@
+@startuml basic-http-flow.puml
+
+skinparam backgroundColor transparent
+
+!include basic-http-flow.puml
+
+@enduml

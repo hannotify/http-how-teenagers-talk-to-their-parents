@@ -150,7 +150,7 @@ It's a deferral, not a commitment.
 
 ## Backend for Frontend
 
-TODO - draw a diagram that showcases the BFF situation at Vanderlande, and how we used 202 Accepted there.
+TODO - draw a PlantUML diagram that showcases the BFF situation at Vanderlande, and how we used 202 Accepted there.
 
 ---
 
