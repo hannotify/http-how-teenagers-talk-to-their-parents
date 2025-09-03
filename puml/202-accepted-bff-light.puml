@@ -1,0 +1,7 @@
+@startuml 202-accepted-bff.puml
+
+skinparam backgroundColor transparent
+
+!include 202-accepted-bff.puml
+
+@enduml

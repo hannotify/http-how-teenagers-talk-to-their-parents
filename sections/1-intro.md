@@ -22,6 +22,7 @@ note:
 Voorbereidingen:
 * append `?controls=false` to the URL
 * Watch your pronunciation
+* Leave the slides at 100%, scale speaker notes view down to 67%
 
 Hi! My name is Hanno and this talk is about HTTP.
 Yes, the HyperText Transfer Protocol.

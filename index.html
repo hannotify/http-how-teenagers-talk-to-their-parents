@@ -18,14 +18,14 @@
     <link rel="stylesheet" href="../../reveal.js/dist/reveal.css">
 
     <!-- black (night, league), beige (white) -->
-    <!-- <link rel="stylesheet" href="../../reveal.js/dist/theme/black.css" id="theme"> -->
+    <link rel="stylesheet" href="../../reveal.js/dist/theme/black.css" id="theme">
     <!-- <link rel="stylesheet" href="../../reveal.js/dist/theme/night.css" id="theme"> -->
     <!-- <link rel="stylesheet" href="../../reveal.js/dist/theme/league.css" id="theme"> -->
-    <!-- <link rel="stylesheet" href="css/darcula.css" id="highlight-theme" /> -->
+    <link rel="stylesheet" href="css/darcula.css" id="highlight-theme" />
     
-    <link rel="stylesheet" href="../../reveal.js/dist/theme/beige.css" id="theme">
+    <!-- <link rel="stylesheet" href="../../reveal.js/dist/theme/beige.css" id="theme"> -->
     <!-- <link rel="stylesheet" href="../../reveal.js/dist/theme/white.css" id="theme"> -->
-    <link rel="stylesheet" href="css/intellij-light.css" id="highlight-theme" />
+    <!-- <link rel="stylesheet" href="css/intellij-light.css" id="highlight-theme" /> -->
 
     <link rel="stylesheet" href="css/event-theme.css" id="custom">
     <link rel="stylesheet" href="css/http.css" id="http">
@@ -48,8 +48,7 @@
             <section data-markdown="sections/2-storytelling.md" data-separator="^\r?\n------\r?\n$" data-separator-vertical="^\r?\n---\r?\n$"></section>
             <section data-markdown="sections/3-the-basics.md" data-separator="^\r?\n------\r?\n$" data-separator-vertical="^\r?\n---\r?\n$"></section>
             <section data-markdown="sections/4-status-codes.md" data-separator="^\r?\n------\r?\n$" data-separator-vertical="^\r?\n---\r?\n$"></section>
-            <section data-markdown="sections/5-build-more-resilient-systems.md" data-separator="^\r?\n------\r?\n$" data-separator-vertical="^\r?\n---\r?\n$"></section>
-            <section data-markdown="sections/6-takeaways.md" data-separator="^\r?\n------\r?\n$" data-separator-vertical="^\r?\n---\r?\n$"></section>
+            <section data-markdown="sections/5-takeaways.md" data-separator="^\r?\n------\r?\n$" data-separator-vertical="^\r?\n---\r?\n$"></section>
 
             <section>
                 <section data-background="img/background/questions-monopoly.jpeg" data-background-color="black"
@@ -121,13 +120,14 @@
             hash: true,
             width: "70%",
             height: "70%",
+            keyboard: {
+                39: 'next',
+                37: 'prev'
+            },
             showHiddenSlides: false,
             transition: 'fade', // none/fade/slide/convex/concave/zoom
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
-            // dependencies: [
-            //     { src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
-            // ]
         });
         Reveal.configure({
             pdfSeparateFragments: false
@@ -136,3 +136,8 @@
 </body>
 
 </html>
+
+<!--
+    - TODO: add target timings 
+    - TODO: upload final slide deck to hanno.codes/slides/http/spacerockit-2025
+-->

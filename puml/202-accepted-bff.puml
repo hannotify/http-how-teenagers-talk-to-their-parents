@@ -1,0 +1,42 @@
+
+actor "End User" as User
+participant "Browser" as Browser
+participant "Backend for Frontend\n(BFF)" as BFF
+participant "User Service" as UserService
+participant "Order Service" as OrderService
+participant "Inventory Service" as InventoryService
+participant "Payment Service" as PaymentService
+
+User -> Browser: Creates new order
+Browser -> BFF: **POST /orders**\nContent-Type: application/json\n\n{"product": "laptop", "quantity": 1}
+
+note right of BFF
+  BFF immediately returns 202 Accepted
+  with a status monitor URL
+end note
+
+BFF -> Browser: **HTTP/1.1 202 Accepted**\nContent-Type: application/json\n\n{"status": "processing",\n "monitor_url": "/orders/status/abc123"}
+
+note left of Browser
+  User can check status
+  using the monitor URL
+end note
+
+BFF -> InventoryService: **Async Processing**\nPOST /inventory/reserve\n{"product": "laptop", "quantity": 1}
+note right of BFF
+  BFF processes the request
+  asynchronously in the background
+end note
+
+InventoryService -> BFF: {"reserved": true, "reservation_id": "inv456"}
+
+BFF -> PaymentService: POST /payments/authorize\n{"amount": 999.99, "order_id": "abc123"}
+PaymentService -> BFF: {"authorized": true, "payment_id": "pay789"}
+
+BFF -> OrderService: POST /orders/create\n{"order_id": "abc123", "status": "confirmed"}
+OrderService -> BFF: {"created": true, "order_id": "abc123"}
+
+note over BFF
+  Order processing complete
+  Status monitor now shows "completed"
+end note

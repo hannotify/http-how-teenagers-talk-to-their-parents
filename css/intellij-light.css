@@ -121,3 +121,7 @@ Intellij-light style (c) Pegasis <me@pegasis.site>
 .basic-http-flow div.slide-background-content {
   background-image: url('../out/puml/basic-http-flow-light/basic-http-flow.puml.svg');
 }
+
+.accepted-bff div.slide-background-content {
+  background-image: url('../out/puml/202-accepted-bff-light/202-accepted-bff.puml.svg');
+}

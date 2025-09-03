@@ -4,6 +4,9 @@
 
 <https://www.pexels.com/photo/man-scolding-his-son-8550837/> <!-- .element: class="attribution" -->
 
+note:
+**Time Elapsed:** `06:30`
+
 ---
 
 <div class="grid">
@@ -57,7 +60,10 @@
 </div>
 
 note:
+**Time Elapsed:** `07:30`
+
 "This may be hard to believe, but I actually wrote that school report"
+"Yes, I actually contributed something to the world today"
 
 ---
 
@@ -75,6 +81,9 @@ Content-Type: application/json
     "content": "(...)"
 }
 </code></pre>
+
+note:
+Here's what that would look like. 
 
 ---
 
@@ -142,15 +151,20 @@ Content-Type: application/json
 </div>
 
 note:
+**Time Elapsed:** `09:00`
+
 A casual “Yeah, I’ll get to it.”
-A promise of future action, often delivered with a tone that suggests it will be indefinitely postponed.
+A promise of future action, often delivered with a tone that suggests it may be indefinitely postponed.
 It's a deferral, not a commitment.
 
 ---
 
-## Backend for Frontend
+<!-- .slide: class="accepted-bff" data-background-size="contain" -->
 
-TODO - draw a PlantUML diagram that showcases the BFF situation at Vanderlande, and how we used 202 Accepted there.
+note:
+
+Application of the Backend for Frontend pattern
+This approach makes your application more resilient, because when one of the backend systems takes a long(er) time to respond, the frontend experience doesn't suffer.
 
 ---
 
@@ -186,6 +200,8 @@ TODO - draw a PlantUML diagram that showcases the BFF situation at Vanderlande, 
 </div>
 
 note:
+**Time Elapsed:** `11:00`
+
 A short verbal acknowledgment of the request, but with an utter lack of further engagement or information.
 
 ---
@@ -217,6 +233,8 @@ A short verbal acknowledgment of the request, but with an utter lack of further 
 </div>
 
 note:
+**Time Elapsed:** `13:00`
+
 "Hi son, you look tired. How about you hit the hay a little earlier today?"
 "What did I tell you last time you asked me that?"
 
@@ -248,12 +266,13 @@ note:
 
 note:
 The default response to anything I ask my daughter.
+I talked about this earlier in the talk.
 
-"Hi angel, can you clean up your room? It looks like a pig stye in there."
-"Well, technically pigs have pointy ears and a curly tail. I have neither of those things, so no, I won't clean up my room."
+> "Hi angel, can you clean up your room? It looks like a pig stye in there."
+> "Well, technically pigs have pointy ears and a curly tail. I have neither of those things, so no, I won't clean up my room."
 
-"Hi angel, please turn off the TV, you've been watching for over an hour already and we both know that 30 minutes is the limit."
-"Well, technically I watched for 45 minutes yesterday, and you didn't complain about it then. So no, I won't turn off the TV."
+> "Hi angel, please turn off the TV, you've been watching for over an hour already and we both know that 30 minutes is the limit."
+> "Well, technically I watched for 45 minutes yesterday, and you didn't complain about it then. So no, I won't turn off the TV."
 
 Basically, she'll find some loophole in my question that warrants her to dismiss it in its entirety.
 It makes me think of legal TV series like “Suits” or “The Lincoln Lawyer” where a mistrial is pronounced whenever a tiny detail in the process is off.
@@ -323,13 +342,9 @@ Her, dismissive: "It’s not like you’re my _mum_ or anything."
 </div>
 
 note:
-Should actually be called “403 Disgusted”. “Dad! You did _not_ just ask me that!”
-A vehemently defensive “Dad! You did _not_ just ask me that!” – a clear boundary violation and a strong rejection of the inquiry.
+If it was up to my daughter, it would be called “403 Disgusted”. “Dad! You did _not_ just ask me that!”
+A defensive “Dad! You did _not_ just ask me that!” – a clear boundary violation and a strong rejection of the inquiry.
 Heard regularly when asking my teenage son about his love interests.
-
----
-
-<!-- .slide: data-background="img/jcon-403-dark.jpg" data-background-size="contain" -->
 
 ---
 
@@ -342,6 +357,10 @@ which makes it an <em>identity issue</em>.
     <span class="monospaced">403 Forbidden</span> means "You're logged in, but you're not allowed to do that",
     which makes it a <em>permission issue</em>.
 </p>
+
+---
+
+<!-- .slide: data-background="img/jcon-403-dark.jpg" data-background-size="contain" -->
 
 ---
 
@@ -492,13 +511,14 @@ This exchange used to also be the other way around, when my kids were younger.
 
 note:
 The default response to anything I ask my son.
+I talked about this earlier in the talk.
 
-Dad: *asks kid to do a chore*
-Kid: (…)
-Dad: “Hello?”
-Kid: (…)
-Dad (getting impatient): “Hellooo?! Earth to kid?!”
-Kid: "What? I didn't hear you..."
+> Dad: *asks kid to do a chore*
+> Kid: (…)
+> Dad: “Hello?”
+> Kid: (…)
+> Dad (getting impatient): “Hellooo?! Earth to kid?!”
+> Kid: "What? I didn't hear you..."
 
 Because if you don't answer, you may just get off the hook!
 
@@ -516,7 +536,7 @@ Because if you don't answer, you may just get off the hook!
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
     <ul>
-        <li>The server does not recognize the request and is incapable of supporting it. 
+        <li>The server does not recognize the request method and is incapable of supporting it. 
     </ul>
     </div>
     <div class="fragment header" data-fragment-index="3">Usage Tips</div>
@@ -536,6 +556,8 @@ But if he was able to talk, he'd say: "I don't know how to do that."
 
 Absolute non-compliance, often accompanied by feigned sleep or a complete lack of acknowledgement. The functionality (waking up early) is simply not implemented in their operating system.
 
+Usage Tips: probably never use, as this status code is only appropriate when the HTTP method is unknown (PARTY request)
+
 ---
 
 <div class="grid"> 
@@ -550,7 +572,7 @@ Absolute non-compliance, often accompanied by feigned sleep or a complete lack o
     <div class="fragment header" data-fragment-index="2">Common Use Cases</div>
     <div class="fragment span-3" data-fragment-index="2">
         <ul>
-            <li>Appropriate when a server is down for maintenance or overloaded;
+            <li>Appropriate when a server is down for maintenance or overloaded.
         </ul>
     </div>
     <div class="fragment header" data-fragment-index="3">Usage Tips</div>

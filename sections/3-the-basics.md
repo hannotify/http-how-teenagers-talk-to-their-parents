@@ -4,6 +4,9 @@
 
 <https://www.pexels.com/photo/man-scolding-his-son-8550837/> <!-- .element: class="attribution" -->
 
+note:
+**Time Elapsed:** `05:00`
+
 ---
 
 <!-- .slide: class="basic-http-flow" data-background-size="contain" -->

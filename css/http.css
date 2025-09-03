@@ -73,7 +73,7 @@
 
 .monospaced {
     font-family: 'Fira Code', monospace;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: var(--r-main-color);
     background-color: color-mix(in srgb, grey 30%, transparent 70%);
     padding: 0px 4px;

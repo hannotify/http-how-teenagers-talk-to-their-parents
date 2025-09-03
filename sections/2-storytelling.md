@@ -4,6 +4,9 @@
 
 <https://www.pexels.com/photo/man-scolding-his-son-8550837/> <!-- .element: class="attribution" -->
 
+note:
+**Time Elapsed:** `02:00`
+
 ---
 
 <h1>👦🏼<span class="fragment" data-fragment-index="1">&nbsp;&nbsp;🛹</span><span class="fragment" data-fragment-index="3">&nbsp;&nbsp;🙂‍↔️</span></h1>
@@ -14,13 +17,13 @@ These are my teenage kids.
 They like teenage things, like (slide) skateboarding, (slide) trying out new makeup combinations and (slide) basically not doing anything I ask them!
 Is it just me, or do more parents have this experience? Any parents in the room? ✋
 
-Before we continue, I just want to make clear that I love my kids to bits, okay?
-As a parent I don't think you can resent your kids for acting teenagey.
+Before we continue, I just want to make clear that I love my kids to bits, right?
+As a parent I don't think it's fair to resent your kids for acting, well, teenag-ey.
 Goodness knows I have acted in a similar way in the past.
 
 So rest assured, I didn't create this talk just to get back at them.
 I created it so you lot can sympathize with me (or laugh at me, whichever you prefer)
-And to put my kids' teen-like responses to my questions to good use.
+And to put the teen-like responses I get from my kids to good use.
 Let me give a few examples of the conversations I'm talking about.
 
 ---
@@ -41,7 +44,13 @@ Let me give a few examples of the conversations I'm talking about.
 </div>
 
 note:
-Because if you don't answer, you may just get off the hook!
+(go through the conversation)
+
+...right! You didn't hear me!
+
+more like:
+
+If you don't answer, you may just get off the hook!
 
 ---
 
@@ -52,6 +61,8 @@ Because if you don't answer, you may just get off the hook!
 
 note:
 Is it just me, or does this conversation remind me an awful lot of (slide) HTTP status code 500?
+That may just as well have been his answer!
+Let's see another example.
 
 ---
 
@@ -74,12 +85,12 @@ Is it just me, or does this conversation remind me an awful lot of (slide) HTTP 
 </div>
 
 note:
-Is it just me, or does these conversations remind me of (slide) HTTP status code 400?
+Is it just me, or does this one remind me of (slide) HTTP status code 400?
 
 My daughter basically finds some loophole in my question that warrants her to dismiss it in its entirety.
 It makes me think of legal TV series like “Suits” or “The Lincoln Lawyer” where a mistrial is pronounced whenever a tiny detail in the process is off.
 So the request isn’t rejected because it’s impossible to fulfill, but because of a perceived flaw in the _formulation_ of the request itself. 
-My daughter seems to be actively dissecting and deconstructing my request to escape responsibility.
+My daughter seems to be actively dissecting and deconstructing my request to escape responsibility!
 
 ---
 
@@ -89,6 +100,7 @@ My daughter seems to be actively dissecting and deconstructing my request to esc
 
 note:
 So, the way my teenage kids talk to me makes me think of HTTP status codes.
-Let's decode the language that modern software systems use to communicate by relating a set of common status codes to an appropriate teenage response.
+Like I said before: let's put their responses to good use.
+Let's start by relating a set of common status codes to an appropriate teenage response.
 And I'll make sure to include a few do's and don't's for every status code we go through, whether you're a developer, tester, architect or data engineer.
 Sound good?

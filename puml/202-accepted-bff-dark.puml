@@ -1,0 +1,11 @@
+@startuml 202-accepted-bff.puml
+
+!include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
+
+skinparam backgroundColor transparent
+skinparam NoteBackgroundColor #DarkRed
+skinparam NoteFontColor #LightGrey
+
+!include 202-accepted-bff.puml
+
+@enduml

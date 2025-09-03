@@ -84,3 +84,7 @@ tr.greyed-out td a {
 .basic-http-flow div.slide-background-content {
   background-image: url('../out/puml/basic-http-flow-dark/basic-http-flow.puml.svg');
 }
+
+.accepted-bff div.slide-background-content {
+  background-image: url('../out/puml/202-accepted-bff-dark/202-accepted-bff.puml.svg');
+}
