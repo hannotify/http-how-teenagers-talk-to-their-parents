@@ -22,13 +22,16 @@ note:
     <div class="fragment span-3" data-fragment-index="2">
         <ul>
             <li><span class="monospaced get">GET</span>Successful retrieval of at least one resource;
-            <li><span class="monospaced post">POST</span>Successful action (that doesn't create a resource);
-            <li><span class="monospaced put">PUT</span><span class="monospaced patch">PATCH</span><span class="monospaced delete">DELETE</span>Successful update/deletion of a resource, with a representation of the resource as response body.
+            <li><span class="monospaced post">POST</span>Successful action;
+            <li><span class="monospaced put">PUT</span><span class="monospaced patch">PATCH</span><span class="monospaced delete">DELETE</span>Successful update/deletion of a resource, when the response body holds a representation of the resource.
         </ul>
     </div>
     <div class="fragment header" data-fragment-index="3">Usage Tips</div>
     <div class="fragment span-3" data-fragment-index="3">
-        <ul><li>Use <span class="monospaced">204 No Content</span> instead, if you don't have any content to send.</ul>
+        <ul>
+            <li><span class="monospaced post">POST</span> When the request creates a resource, use <span class="monospaced">201 Created</span> instead.
+            <li><span class="monospaced put">PUT</span><span class="monospaced patch">PATCH</span><span class="monospaced delete">DELETE</span>Use <span class="monospaced">204 No Content</span> if you don't have any content to send.
+        </ul>
     </div>
 </div>
 
@@ -190,11 +193,11 @@ This approach makes your application more resilient, because when one of the bac
     <div class="fragment header" data-fragment-index="3">Usage Tips</div>
     <div class="fragment span-3" data-fragment-index="3">
         <ul>
-            <li>The response can't contain a response body; use <span class="monospaced">200 OK</span> if you've got content to send;
             <li>A <span class="monospaced">204 No Content</span> instructs user agents not to change the render it already has, so don't use it when dealing with queries that yield an empty result. 
             <ul>
                 <li>Sending a <span class="monospaced">200 OK</span> with an empty list as response body would be more fitting.
             </ul>
+            <li>The response can't contain a response body; use <span class="monospaced">200 OK</span> if you've got content to send;
         </ul>
     </div>
 </div>
@@ -226,8 +229,8 @@ A short verbal acknowledgment of the request, but with an utter lack of further 
     <div class="fragment span-3" data-fragment-index="3">
         <ul>
             <li>Only use when processing the resource is more expensive than determining if the resource has been modified;
-            <li>HTTP servers have this functionality baked in for static files (based on the file's timestamp);
             <li>In RESTful API's, consider this for single resources—not for collections.
+            <li>HTTP servers have this functionality baked in for static files (based on the file's timestamp);
         </ul>
     </div>
 </div>
@@ -265,6 +268,8 @@ note:
 </div>
 
 note:
+**Time Elapsed:** `14:00`
+
 The default response to anything I ask my daughter.
 I talked about this earlier in the talk.
 
@@ -301,13 +306,15 @@ My teenage kids are actively dissecting and deconstructing my request to escape 
         <ul>
             <li>As a client: are your login credentials or your API key valid?
             <li>This situation is temporary—the server is asking you to try again;
-            <li>The name of this status code can be confusing—a better name would be '401 Unauthenticated';
             <li>It should have nothing to do with user permissions (for that, see <span class="monospaced">403 Forbidden</span>).
+            <li>The name of this status code can be confusing—a better name would be '401 Unauthenticated';
         </ul>
     </div>
 </div>
 
 note:
+**Time Elapsed:** `15:00`
+
 Me: "Hi sweetheart, do you want me to braid your hair?"
 Her, dismissive: "It’s not like you’re my _mum_ or anything." 
 
@@ -342,6 +349,8 @@ Her, dismissive: "It’s not like you’re my _mum_ or anything."
 </div>
 
 note:
+**Time Elapsed:** `16:30`
+
 If it was up to my daughter, it would be called “403 Disgusted”. “Dad! You did _not_ just ask me that!”
 A defensive “Dad! You did _not_ just ask me that!” – a clear boundary violation and a strong rejection of the inquiry.
 Heard regularly when asking my teenage son about his love interests.
@@ -391,6 +400,8 @@ which makes it an <em>identity issue</em>.
 </div>
 
 note:
+**Time Elapsed:** `18:00`
+
 A blank stare and "I have no idea what you want." – denial of knowledge or responsibility.
 The requested information (or chore) simply doesn’t exist in their realm of awareness.
 
@@ -415,6 +426,8 @@ The requested information (or chore) simply doesn’t exist in their realm of aw
 </div>
 
 note:
+**Time Elapsed:** `19:30`
+
 A disgusted “That's no way to ask.” – A rejection of the request as fundamentally inappropriate or unconventional. It’s not a matter of _can't_ do it, but _won’t_ do it because it’s strange.
 The request itself isn’t incomprehensible, but the way you’re asking it (the "method") is unacceptable. It’s a judgment on the approach, not the request itself.
 
@@ -442,6 +455,8 @@ This exchange used to be the other way around, when my kids were younger.
     </div>
 </div>
 
+note:
+**Time Elapsed:** `20:00`
 
 ---
 
@@ -510,6 +525,8 @@ This exchange used to also be the other way around, when my kids were younger.
 </div>
 
 note:
+**Time Elapsed:** `21:00`
+
 The default response to anything I ask my son.
 I talked about this earlier in the talk.
 
@@ -550,6 +567,8 @@ Because if you don't answer, you may just get off the hook!
 </div>
 
 note:
+**Time Elapsed:** `22:00`
+
 Dad: “Time to get up, kid. You've got school in 45 minutes.”.
 Teenager: ”(...)&nbsp;&nbsp;😴" *feigned sleeping*
 But if he was able to talk, he'd say: "I don't know how to do that."
@@ -587,5 +606,7 @@ Usage Tips: probably never use, as this status code is only appropriate when the
 </div>
 
 note:
+**Time Elapsed:** `23:30`
+
 "Dad! Can't you see I'm busy?"
 An abrupt dismissal, often with no indication of _what_ they’re busy with (but probably with their phone).

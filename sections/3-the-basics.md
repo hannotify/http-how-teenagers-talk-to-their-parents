@@ -44,18 +44,16 @@ So understanding these status codes can save hours of debugging.
         </tr>
         <tr class="fragment">
             <td><span class="badge client-error">4xx Client Error</span></td>
-            <td>An error occurred, caused by the client.*</td>
+            <td>An error occurred, caused by the client.</td>
         </tr>
         <tr class="fragment">
             <td><span class="badge server-error">5xx Server Error</span></td>
-            <td>An error occurred, caused by the server.*</td>
+            <td>An error occurred, caused by the server.</td>
         </tr>
     </tbody>
 </table>
 
 <br/>
-
-<small class="fragment">* For all requests apart from <span class="monospaced head">HEAD</span>, the server should include an entity containing an explanation of the error situation, and whether it is temporary or permanent.</small>
 
 note:
 

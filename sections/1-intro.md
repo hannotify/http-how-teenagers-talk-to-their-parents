@@ -70,8 +70,8 @@ note:
 1. BEROEPSDEFORMATIE
 2. Other languages have a similar word (slide x5), but oddly enough English isn't one of them
 3. There *is* an English Wikipedia page on the subject, but funnily enough (slide) it uses the French word instead of an English equivalent.
-4. Which further leads me to believe that an English equivalent simply doesn't exist.
-5. So let's see a definition, for those of you who aren't fluent in Dutch, French, German, Italian, Swedish or Spanish.
+4. Which further leads me to believe that the words doesn't exist in English.
+5. So let's see a definition, for those of you who prefer English.
 
 ---
 
