@@ -1,4 +1,4 @@
-<!-- .slide: data-background="img/background/teen-not-listening.jpg" data-background-color="black" data-background-opacity="0.4" -->
+<!-- .slide: data-background="img/background/teen-not-listening.jpg" data-background-color="black" data-background-opacity="1.0" -->
 
 # Hanno Versus His Teenage Kids <!-- .element class="stroke" -->
 
@@ -94,7 +94,7 @@ My daughter seems to be actively dissecting and deconstructing my request to esc
 
 ---
 
-<!-- .slide: data-background="img/background/network-cables.jpg" data-background-color="black" data-background-opacity="0.4" -->
+<!-- .slide: data-background="img/background/network-cables.jpg" data-background-color="black" data-background-opacity="1.0" -->
 
 <https://pxhere.com/en/photo/779821> <!-- .element: class="attribution" -->
 

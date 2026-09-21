@@ -1,4 +1,4 @@
-<!-- .slide: data-background-opacity="1.0" -->
+<!-- .slide: data-background-opacity="1.0" data-background-color="white" -->
 
 # HTTP:
 ## How Teenagers Talk
@@ -15,7 +15,7 @@
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://bsky.app/profile/hanno.codes">@hanno.codes</a></td>
     </tr>
 </table>
-<img width="10%" data-src="img/logos/spacerockit-2025.png" class="no-background"/>
+<img width="25%" data-src="img/logos/amsterdamjug.webp" class="no-background"/>
 
 note:
 
@@ -39,7 +39,7 @@ note:
 
 ---
 
-<!-- .slide: data-background-color="black" data-background="img/background/gezellig.jpg" data-background-opacity="0.3" -->
+<!-- .slide: data-background-color="black" data-background="img/background/gezellig.jpg" data-background-opacity="1.0" -->
 
 <https://www.pexels.com/photo/people-cooking-marshmallows-on-campfire-9630132/> <!-- .element: class="attribution" -->
 
@@ -103,7 +103,7 @@ let's see some examples! (slide)
 
 ---
 
-<!-- .slide: data-background-color="black" data-background="img/background/atm.jpg" data-background-opacity="0.5" -->
+<!-- .slide: data-background-color="black" data-background="img/background/atm.jpg" data-background-opacity="1.0" -->
 
 <https://pxhere.com/en/photo/571811> <!-- .element: class="attribution" -->
 
@@ -112,7 +112,7 @@ A cashier absentmindedly checking the bills they got from the ATM for counterfei
 
 ---
 
-<!-- .slide: data-background-color="black" data-background="img/background/firefighter.jpg" data-background-opacity="0.3" -->
+<!-- .slide: data-background-color="black" data-background="img/background/firefighter.jpg" data-background-opacity="1.0" -->
 
 <https://pxhere.com/en/photo/816100> <!-- .element: class="attribution" -->
 
@@ -121,7 +121,7 @@ A firefighter walking into a building that's unfamiliar to them, while mentally 
 
 ---
 
-<!-- .slide: data-background-color="black" data-background="img/background/software-engineer.jpg" data-background-opacity="0.8" data-background-size="contain" -->
+<!-- .slide: data-background-color="black" data-background="img/background/software-engineer.jpg" data-background-opacity="1.0" data-background-size="contain" -->
 
 note:
 

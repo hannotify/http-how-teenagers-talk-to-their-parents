@@ -1,4 +1,4 @@
-<!-- .slide: data-background="img/background/teen-not-listening.jpg" data-background-color="black" data-background-opacity="0.4" -->
+<!-- .slide: data-background="img/background/teen-not-listening.jpg" data-background-color="black" data-background-opacity="1.0" -->
 
 # Takeaways <!-- .element class="stroke" -->
 
@@ -124,7 +124,7 @@ note:
 
 ---
 
-<!-- .slide: data-background="img/background/teen-not-listening.jpg" data-background-color="black" data-background-opacity="0.4" -->
+<!-- .slide: data-background="img/background/teen-not-listening.jpg" data-background-color="black" data-background-opacity="1.0" -->
 
 <h1 class="stroke">The Best Way To Learn</h1>
 <blockquote class="explanation">

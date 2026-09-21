@@ -1,4 +1,4 @@
-<!-- .slide: data-background="img/background/teen-not-listening.jpg" data-background-color="black" data-background-opacity="0.4" -->
+<!-- .slide: data-background="img/background/teen-not-listening.jpg" data-background-color="black" data-background-opacity="1.0" -->
 
 # HTTP Status Codes <!-- .element class="stroke" -->
 
