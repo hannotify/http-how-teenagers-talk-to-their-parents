@@ -229,7 +229,7 @@ A short verbal acknowledgment of the request, but with an utter lack of further 
     <div class="fragment span-3" data-fragment-index="3">
         <ul>
             <li>Only use when processing the resource is more expensive than determining if the resource has been modified;
-            <li>In RESTful API's, consider this for single resources—not for collections.
+            <li>In RESTful API's, this is easier implemented for single resources than for collections.
             <li>HTTP servers have this functionality baked in for static files (based on the file's timestamp);
         </ul>
     </div>

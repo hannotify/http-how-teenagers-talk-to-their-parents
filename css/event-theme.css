@@ -52,7 +52,7 @@ a {
     background: var(--eventColor);
     text-shadow: none; 
 }
-  
+
 .reveal ::-moz-selection {
     color: white;
     background: var(--eventColor);

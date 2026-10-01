@@ -117,9 +117,9 @@ note:
 
 <ul>
     <li class="fragment"><strong>Integrations become more reliable</strong> and easier to maintain when APIs use status codes correctly;
-    <li class="fragment"><strong>Client-side resilience is improved</strong> as clients can gracefully degrade when encountering status codes <span class="monospaced">503 Service Unavailable</span> or <span class="monospaced">429 Too Many Requests</span>;
+    <li class="fragment"><strong>Client-side resilience is improved</strong> as clients can gracefully degrade when encountering status code like <span class="monospaced">503 Service Unavailable</span> or <span class="monospaced">429 Too Many Requests</span>;
     <li class="fragment"><strong>Monitoring and observability reports increase in quality</strong> when APIs use status codes correctly;
-    <li class="fragment"><strong>User experience increases</strong> when status codes are interpreted into meaningful feedback for end-users.
+    <li class="fragment"><strong>User experience improves</strong> when status codes are interpreted into meaningful feedback for end-users.
 </ul>
 
 ---
