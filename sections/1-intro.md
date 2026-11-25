@@ -1,5 +1,3 @@
-<!-- .slide: data-background-opacity="1.0" data-background-color="white" -->
-
 # HTTP:
 ## How Teenagers Talk
 ## to their Parents
@@ -15,7 +13,7 @@
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://bsky.app/profile/hanno.codes">@hanno.codes</a></td>
     </tr>
 </table>
-<img width="25%" data-src="img/logos/amsterdamjug.webp" class="no-background"/>
+<img width="55%" data-src="img/logos/wawtech-pink.svg" class="no-background"/>
 
 note:
 
@@ -60,6 +58,7 @@ note:
 #### 🇮🇹 deformazione professionale <!-- .element: class="fragment" -->
 #### 🇸🇪 arbetsskada <!-- .element: class="fragment" -->
 #### 🇪🇸 deformación profesional <!-- .element: class="fragment" -->
+#### 🇵🇱 deformacja zawodowa <!-- .element: class="fragment" -->
 
 <br/>
 
